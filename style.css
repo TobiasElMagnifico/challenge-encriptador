@@ -1,0 +1,61 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 5%;
+}
+
+header{
+    padding: 15px 0px;
+}
+
+.textarea{
+    width: 100%;
+    font-family:'Ubuntu', sans-serif;
+    font-size: 2em;
+    resize: none;
+    border-style: none;
+}
+
+button{
+    width: 100%;
+    font-size: 1.5em;
+    margin: 10px 0;
+    padding: 15px 30px;
+    border-radius: 15px;
+    border: 1px solid #0A3871;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    color: #fff;
+    background-color: #0A3871;
+}
+
+.button-desencriptar{
+    color:#0A3871;
+    background-color:#FFFFFF;
+}
+
+section p{
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+.output-default {
+    
+}
+
+div p {
+    font-size: 1em;
+}
+
+.lupa{
+    width: 100%;
+}
+
+.output-texto {
+    display: none;
+    width: auto;
+}
+
+.div-area-final-texto {
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 1em;
+}
