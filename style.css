@@ -1,5 +1,6 @@
 body{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Special Elite', cursive;
+    /*font-family:'Ubuntu', sans-serif;*/
     margin: 0 5%;
 }
 
@@ -9,7 +10,8 @@ header{
 
 .textarea{
     width: 100%;
-    font-family:'Ubuntu', sans-serif;
+    font-family: 'Special Elite', cursive;
+    /*font-family:'Ubuntu', sans-serif;*/
     font-size: 2em;
     resize: none;
     border-style: none;
@@ -35,10 +37,6 @@ button{
 section p{
     font-size: 0.7em;
     font-style: italic;
-}
-
-.output-default {
-    
 }
 
 div p {
