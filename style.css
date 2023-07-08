@@ -2,19 +2,47 @@ body{
     font-family: 'Special Elite', cursive;
     /*font-family:'Ubuntu', sans-serif;*/
     margin: 0 5%;
+    text-align: center;
+    background-color:#100909; 
 }
 
 header{
-    padding: 15px 0px;
+    width: 100%;
+    margin: auto;
+    max-width: 430px;
+}
+
+.container{
+    /*max-width: 768px; */
+    margin: auto;
+    width: 94%;
+}
+
+.container-seccions{
+    margin-bottom: 150px;
 }
 
 .textarea{
     width: 100%;
     font-family: 'Special Elite', cursive;
-    /*font-family:'Ubuntu', sans-serif;*/
     font-size: 2em;
+    color: #fff;
     resize: none;
     border-style: none;
+    border-radius: 15px;
+    box-shadow: inset 0 0 5px rgb(255, 255, 255);
+    background-color: rgba(0,0,0,0.5);
+    padding: 15px 10px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.texto-requisitos{
+    font-size: 0.7em;
+    font-style: italic;
+    color: red;
+    position: relative;
+    margin-top: 10px;
 }
 
 button{
@@ -23,28 +51,46 @@ button{
     margin: 10px 0;
     padding: 15px 30px;
     border-radius: 15px;
-    border: 1px solid #0A3871;
-    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    border: 1px solid #eeeeee;
+    box-shadow: 1px 1px 5px rgb(255, 255, 255);
     color: #fff;
-    background-color: #0A3871;
+    background-color: #c20909;
+    cursor: pointer;
 }
 
-.button-desencriptar{
-    color:#0A3871;
-    background-color:#FFFFFF;
+button:hover{
+    background-color: #9c0505;
 }
 
-section p{
-    font-size: 0.7em;
-    font-style: italic;
+button:active{
+    transform: scale(0.95);
+}
+
+.output-default {
+    padding: 10px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 div p {
-    font-size: 1em;
+    margin: 10px 0;
 }
 
 .lupa{
-    width: 100%;
+    width: 70%;
+    margin: 0 15% 0;
+}
+
+.txt-output-default{
+    font-size: 1.5em;
+    font-weight: 1000;
+    color: #fff;
+}
+
+.txt2-output-default{
+    color: #fff;
 }
 
 .output-texto {
@@ -54,6 +100,34 @@ div p {
 
 .div-area-final-texto {
     border: 2px solid #000000;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 1em;
+}
+
+.footer {
+    height: 40px;
+}
+
+.txt-footer {
+    color: #FFFFFF;
+    padding: 15px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+
+.container-seccions{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    max-width: 1000px;
+}
+
+.sections{
+    margin: 0px 20px;
+    box-sizing: border-box;
+    width:50%;
+}
+    
 }

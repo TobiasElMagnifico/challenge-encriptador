@@ -3,49 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encriptador</title>
+    <title>Encriptador | Oracle Next Education</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <!--<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <!--Meta description start-->
+    <meta name="description" content=
+    "Programa diseñado para enviar y recibir mensajes encriptados."»>
+    <!--Favicon start-->
+    <link rel="icon" type="image/x-icon" href="https://cdn3.iconfinder.com/data/icons/security-double-color-red-black-vol-3/52/locker__safe__security__protection__secure__locked__protect-512.png">
+    <!--Open Graph start-->
+    <meta property=”og:type” content="landing page" />
+    <meta property=”og:title” content="Encriptador | Oracle Next Education" />
+    <meta property=”og:description” content="Programa diseñado para enviar y recibir mensajes encriptados." />
+    <meta property=”og:image” content="https://cdn3.iconfinder.com/data/icons/security-double-color-red-black-vol-3/52/locker__safe__security__protection__secure__locked__protect-512.png" />
+    <meta property=”og:url” content="https://tobiaselmagnifico.github.io/" />
 </head>
-<body>
+<body class="container">
 
     <header>
-        <h1><img src="media/logo-alura.png" alt="logo de Alura"></h1>
+        <h1><img src="media/top-secret-small.jpg" width="60%" alt="logo de Alura"></h1>
     </header>
 
-    <main>
+    <main class="container-seccions">
 
-        <section class="section-1">
+        <section class="sections">
 
-            <textarea class="textarea" cols="30" rows="10" id="input-texto" placeholder="Ingrese el texto aqui"></textarea> 
-            <p>&#33;Solo letras minúsculas y sin acentos</p>
+            <textarea class="textarea" cols="30" rows="13" id="input-texto" placeholder="Ingrese el texto aqui"></textarea> 
+            <p class="texto-requisitos">*Solo letras minúsculas y sin acentos</p>
             <button id="btn-encriptar">Encriptar</button>
-            <button class="btn-desencriptar" id="btn-desencriptar">Desencriptar</button>
+            <button id="btn-desencriptar">Desencriptar</button>
 
         </section>
             
-        <section>
+        <section class="sections">
             <div class="output-default" id="output-default">
-                <p>Ningún mensaje fue encontrado.</p>
-                <img src="media/lupa.png" class="lupa" alt="Lupa">
-                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                <p class="txt-output-default">Ningún mensaje fue encontrado.</p>
+                <img src="media/detective.jpg" width="100%"></img>
+                <p class="txt2-output-default">Ingrese el texto que desee encriptar o desencriptar.</p>
             </div>
             <div class="output-texto" id="output-texto">
-                <div class="div-area-final-texto" id="div-resultado"></div>
+                <textarea class="textarea" id="textarea-resultado" cols="30" rows="13" readonly></textarea>
                 <button id="btn-copiar">Copiar</button>
             </div>
         </section>
 
     </main>
 
-    <footer>
-        <p>&copy;Tobías El Magnífico</p>
+    <footer class="footer">
+        <p class="txt-footer">&copy;Tobías El Magnífico</p>
     </footer>
     <script src="script.js"></script>
 </body>
