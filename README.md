@@ -9,11 +9,15 @@ Proyecto desarrollado en el marco del programa Oracle Next Education utilizando 
 
 - Las llaves de encriptación deben ser las siguientes:
 
-> e :tw-2194:  enter
-> i  :tw-2194: imes
-> a :tw-2194: ai
-> o :tw-2194: ober
-> u :tw-2194: ufat
+> e = enter
+
+> i = imes
+
+> a = ai
+
+> o = ober
+
+> u = ufat
 
 - Debe funcionar solo con letras minúsculas.
 
