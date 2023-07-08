@@ -1,15 +1,19 @@
 ![](https://emanuelcebas.github.io/Portafolio/assets/images/logo-one.png)
-#Encriptador de texto
+
+# Encriptador de texto 
+
 ![](media/encriptador-screen.png)
 Proyecto desarrollado en el marco del programa Oracle Next Education utilizando HTML5, CSS3 y JavaScript.
-###:tw-1f4dd: Consignas
+
+### :tw-1f4dd:Consignas
+
 - Las llaves de encriptación deben ser las siguientes:
 
 > e :tw-2194:  enter
- i  :tw-2194: imes
-a :tw-2194: ai
-o :tw-2194: ober
-u :tw-2194: ufat
+> i  :tw-2194: imes
+> a :tw-2194: ai
+> o :tw-2194: ober
+> u :tw-2194: ufat
 
 - Debe funcionar solo con letras minúsculas.
 
@@ -23,5 +27,6 @@ u :tw-2194: ufat
 
 - Agregar un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
 
-###:tw-1f4e9:Mensaje secreto
+### :tw-1f4e9:Mensaje secreto
+
 vobery ai flobertair cobermober mairimespobersai y pimescair cobermober aibenterjai
