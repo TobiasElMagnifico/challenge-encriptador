@@ -27,7 +27,7 @@ function encriptar() {
             }
             indice=0;
             mostrarAreaMensaje(textoEncriptado);
-            window.scroll({top:500,behavior:"smooth"}); //función para scrollear automaticamente hasta resultado
+            //window.scroll({top:500,behavior:"smooth"}); función para scrollear automaticamente hasta resultado
             
         }
     }
@@ -49,7 +49,7 @@ function desencriptar() {
         }
         indice=0;
         mostrarAreaMensaje(textoDesencriptado);
-        window.scroll({top:600,behavior:"smooth"});//función para scrollear automaticamente hasta resultado
+        //window.scroll({top:600,behavior:"smooth"});//función para scrollear automaticamente hasta resultado
     }
 }
 
