@@ -76,11 +76,6 @@ div p {
     margin: 10px 0;
 }
 
-.lupa{
-    width: 70%;
-    margin: 0 15% 0;
-}
-
 .txt-output-default{
     font-size: 1.5em;
     font-weight: 1000;
@@ -112,7 +107,7 @@ div p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 630px) {
 
 .container-seccions{
     display: flex;

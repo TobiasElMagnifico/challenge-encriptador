@@ -63,7 +63,7 @@ function mostrarAreaMensaje (texto) {
 function copiarTexto () {
     
     var copyText = document.getElementById("textarea-resultado").textContent;
-    textarea.select(); //ojo que capaz es al pedo esto (selecciona texto automaticamnte)
+    textarea.select();
     navigator.clipboard.writeText(copyText);
     alert("¡Copiado!");
 }
